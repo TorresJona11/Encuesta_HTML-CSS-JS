@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Encuestas</title>
+    <link rel="stylesheet" href="diseño.css">
+</head>
+<body>
+    <section class="container">
+        <h2>Formulario de Satisfacción</h2>
+        <form id="surveyForm">
+            <label for="question1">Pregunta 1: ¿Cuál es su nombre?</label>
+            <input type="text" id="question1" name="question1"><br><br>
+            <label for="question2">Pregunta 2: ¿Cuál es su edad?</label>
+            <input type="text" id="question2" name="question2"><br><br>
+            <label for="question3">Pregunta 3: ¿Está satisfecho con nuestros servicios?</label>
+            <input type="text" id="question3" name="question3"><br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section class="container">
+        <h2>Sección de Visualización</h2>
+        <div id="surveyList"></div>
+    </section>
+
+    <script src="funcion.js"></script>
+</body>
+</html>
